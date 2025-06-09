@@ -5,7 +5,7 @@ print(x+y)
 #method 2
 a=input("take first number")
 b=input("take second number to add")
-c=int(a)+int(b)
+c=int (a)+int(b)
 #u can use float 
 print(c)
 #method 3 using functions
