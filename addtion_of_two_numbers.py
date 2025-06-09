@@ -8,12 +8,12 @@ b=input("take second number to add")
 c=int(a)+int(b)
 #u can use float 
 print(c)
-#method 3 using functions
+#method 3 using functions inside func print
 def sumof2 (d,e):
     f=int(d)+int(e)
     print(f)
 sumof2(105,95);
-#print outside function
+#print outside function print
 def sumof2 (x,y):
     return int(x)+int(y)
 z=sumof2(105,95);
