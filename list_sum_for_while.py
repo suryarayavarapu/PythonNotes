@@ -10,6 +10,7 @@ print(sum)
 array2=[22,24,23,25]
 x=0
 sum=0
+n=len(array2)
 while(x<n):
     sum=sum+array2[x]
     x+=1
