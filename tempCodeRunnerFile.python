@@ -1,0 +1,7 @@
+array1=[2,4,13,5]
+print(array1[-2])
+sum=0
+i=0
+for i in array1:
+    sum+=i
+print(sum)
