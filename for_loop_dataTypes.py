@@ -28,3 +28,23 @@ for m in information.split():
     count+=1
 print(count)
 print(F"count of a words in a string is {count}")
+#for loop with list in python uisng iterative
+list1=["abc", "def", "ghi", "jkl"]
+print(len(list1))
+for i in range(len(list1)):
+    print(list1[i])
+#for loop with list in python uisng without iterative
+for list in list1:
+    print ("\n" ,list)
+#for loop with dictionaries
+dict1={"name":"surya","roll_no":21, "place":"bangalore","course":"python","marks":21.500}
+for key in dict1:
+    print(key)
+    print(dict1[key])
+print('\ndone\n')
+for key in dict1.values():
+#simliraly keys, for key in dict1.keys():
+    print(key)
+for key,values in dict1.items():
+    print(values)
+    print(key," : ",values)

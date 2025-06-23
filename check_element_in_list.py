@@ -39,3 +39,13 @@ while i<(len(fruits)):
 #update based on flag status, if status true it wont print if it false then it print
 if not fruit_found:
     print("oranges not in the lsit")
+#using for loop
+#input 1 >>>cars=["bmn","toyota","audi","benz"]
+cars=["bmn","toyota","audi","benz","mahindra"]
+car_found=False
+for car in  cars:
+    if car=="mahindra":
+        car_found=True
+        print("car mahindra is present ")
+if not car_found:
+    print("car mahindra not found")
