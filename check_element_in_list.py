@@ -1,4 +1,3 @@
-#check element in list for duplicates if one found no need to check duplicte
 while True:
     value=input("enter value")
     if value=='q':
@@ -7,6 +6,7 @@ while True:
 print("you exited loop")
 
 #list of fruits while else
+#check element in list for duplicates if one found no need to check duplicte
 fruits=["apple","banana","kiwi","onion","potato"]
 #fruits=["apple","banana","orange","kiwi","onion",,"potato"]
 #fruits=["apple","banana","kiwi","orange","onion","orange","potato"]
