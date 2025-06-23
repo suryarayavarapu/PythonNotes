@@ -15,4 +15,16 @@ for i in content[::-1]:
 #without using for loop based on syntax
 message="welcome"
 print(message[::-1])
-  
+# accesing words using split
+information="hi hello namastey how are you"
+print (information.split(" ",2))
+print (information.split(" "))
+#default white space character
+print (information.split())
+#using for loop accesign each word and count
+count=0
+for m in information.split():
+    print (m)
+    count+=1
+print(count)
+print(F"count of a words in a string is {count}")
