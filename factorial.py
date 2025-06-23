@@ -20,3 +20,4 @@ def facts(d):
         return math.factorial(d)
 d=-1
 print(facts(d))
+#           
