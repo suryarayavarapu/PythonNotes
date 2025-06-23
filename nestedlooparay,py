@@ -1,0 +1,17 @@
+list1=[1,2,3]
+list2=["a","b","c"]
+for i in list1:
+    for j in list2:
+        print(i,j)
+    print (" \n")
+#using while loop
+list3=[5,2,3]
+list4=["f","b","c"]
+m=0
+while m<len(list3):
+    n=0
+    while n<len(list4):
+        print(list3[m],list4[n])
+        n+=1
+    print()
+    m+=1   
