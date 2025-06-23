@@ -41,11 +41,12 @@ if not fruit_found:
     print("oranges not in the lsit")
 #using for loop
 #input 1 >>>cars=["bmn","toyota","audi","benz"]
-cars=["bmn","toyota","audi","benz","mahindra"]
+cars=["bmn","toyota","audi","benz","mahindra","jaguar","mahindra"]
 car_found=False
 for car in  cars:
     if car=="mahindra":
         car_found=True
         print("car mahindra is present ")
+        break
 if not car_found:
     print("car mahindra not found")
