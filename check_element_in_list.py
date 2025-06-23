@@ -1,3 +1,4 @@
+#check element in list for duplicates if one found no need to check duplicte
 while True:
     value=input("enter value")
     if value=='q':
