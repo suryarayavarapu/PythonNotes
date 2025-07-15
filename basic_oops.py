@@ -6,6 +6,7 @@ class Myclass():
 z=Myclass()
 print(z.x1)
 #-----------
+#here self is refernce in current instance you can take any alternate in place of self acts like still reference
 class Person():
     def __init__(self, name, age):
         self.name=name
